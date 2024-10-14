@@ -1,0 +1,7 @@
+Ahmad 24
+Jafar 45
+Ali 28
+Zahra 35
+Mohammad 125
+
+awk '{ $2 = $2 + 5; print $1, $2 }' 6_names.txt

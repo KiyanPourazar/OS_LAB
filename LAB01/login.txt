@@ -1,0 +1,6 @@
+Error: File not found
+Warning: Low disk space
+Error: File not found
+Exeption: I/O Error
+
+awk '{ gsub("Error: File not found", "Error: The file you are looking for does not exist"); print }' login.txt
