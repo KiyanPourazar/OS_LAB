@@ -1,9 +1,10 @@
 #!/bin/bash
 
-DIR_PATH="Address"
+echo "Press [CTRL+C] to stop.."
+while true; do
+    mkdir NewFolder
+    echo "New Folder Created successfully :)"
+    cd NewFolder
+    sleep 1
+done
 
-if mkdir -p "$DIR_PATH"; then
-  echo "Done!"
-else
-  echo "ERROR!"
-fi
